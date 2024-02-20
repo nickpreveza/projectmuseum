@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b8243875633e8ec4bbe2b5717422ae5a
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Core/Utility/vp_AudioUtility.cs
+  uploadId: 282757

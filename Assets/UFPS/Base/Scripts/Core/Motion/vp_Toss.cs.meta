@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 0d427a57af69a6a4889d663e0cb0a7b8
+timeCreated: 1464362377
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Core/Motion/vp_Toss.cs
+  uploadId: 282757

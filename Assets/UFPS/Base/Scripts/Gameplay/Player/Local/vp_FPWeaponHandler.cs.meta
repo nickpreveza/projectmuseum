@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 49fa1559690f5264185a0a5e9353db35
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Gameplay/Player/Local/vp_FPWeaponHandler.cs
+  uploadId: 282757

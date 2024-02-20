@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b0f0501bcf64e5d4cbc7f568184d9957
+timeCreated: 1460660573
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Content/Surfaces/SurfaceFX/ShotgunPelletOnRock.asset
+  uploadId: 282757

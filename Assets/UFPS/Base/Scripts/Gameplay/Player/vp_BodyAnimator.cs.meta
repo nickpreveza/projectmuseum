@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 150b7735b324493489fad7eac21b0d6a
+timeCreated: 1427484472
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 20
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Gameplay/Player/vp_BodyAnimator.cs
+  uploadId: 282757

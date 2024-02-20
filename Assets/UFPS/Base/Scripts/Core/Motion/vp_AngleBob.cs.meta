@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b9ad60b0c09b43847910dfc43dd88f86
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Core/Motion/vp_AngleBob.cs
+  uploadId: 282757

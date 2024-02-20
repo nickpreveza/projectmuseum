@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 185369b1ce5505a409050302eb7d834b
+timeCreated: 1429179838
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/VR/Content/Prefabs/GUI/VRInteractIcon.prefab
+  uploadId: 282757

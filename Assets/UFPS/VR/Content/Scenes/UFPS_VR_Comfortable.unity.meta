@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c483b66a734666d4589bdd5d4ed34930
+timeCreated: 1468522509
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/VR/Content/Scenes/UFPS_VR_Comfortable.unity
+  uploadId: 282757

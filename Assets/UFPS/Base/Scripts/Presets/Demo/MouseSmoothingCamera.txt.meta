@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 1573e3e30919b9546a94d1af499cc389
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Presets/Demo/MouseSmoothingCamera.txt
+  uploadId: 282757

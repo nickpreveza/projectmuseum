@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: e68cc263680d2784ea6caeb574563c16
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Grenade01/WeaponGrenade01Attack.txt
+  uploadId: 282757

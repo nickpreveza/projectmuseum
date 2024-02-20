@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f7f4c8dde1d135e41ad22ee3d38cf349
+timeCreated: 1458583502
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Content/Art/Effects/Particles/Materials/FootstepDust.mat
+  uploadId: 282757

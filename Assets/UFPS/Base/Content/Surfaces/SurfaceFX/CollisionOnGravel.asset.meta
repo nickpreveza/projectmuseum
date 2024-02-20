@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 8db769b118f6ae048a6aa12f06b42950
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Content/Surfaces/SurfaceFX/CollisionOnGravel.asset
+  uploadId: 282757

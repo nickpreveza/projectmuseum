@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: d8eec28dd1feb944f9d416a4f5fe4dca
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/ShooterPistol01Default.txt
+  uploadId: 282757

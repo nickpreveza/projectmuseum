@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f65923d9631c5f746afb2b62043329eb
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Core/Editor/Menu/vp_AboutBox.cs
+  uploadId: 282757

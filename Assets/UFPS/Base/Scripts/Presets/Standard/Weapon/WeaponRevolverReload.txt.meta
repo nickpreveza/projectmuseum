@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 0287b9d368d2a494d91e2105cb04a05c
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Presets/Standard/Weapon/WeaponRevolverReload.txt
+  uploadId: 282757

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cfa38304e5d888c4581d811306fffc33
+timeCreated: 1460661063
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Content/Art/Effects/Decals/Materials/shotgunpelletrock1.mat
+  uploadId: 282757

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b64c9e4de3301754abd803f4cb0fcccb
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Gameplay/Editor/vp_FootstepManagerEditor.cs
+  uploadId: 282757

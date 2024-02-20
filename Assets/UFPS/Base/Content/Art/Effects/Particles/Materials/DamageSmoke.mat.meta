@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 9f1ef207442414b49a2f6d58674867aa
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Content/Art/Effects/Particles/Materials/DamageSmoke.mat
+  uploadId: 282757

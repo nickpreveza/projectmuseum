@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 1ecc417d73bfd7f48b0627e8004de318
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Content/Prefabs/Players/Camera&Controller.prefab
+  uploadId: 282757

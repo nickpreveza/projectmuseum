@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 742194ae408102e4e8f7fdb0766b928a
+timeCreated: 1457380207
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Presets/Standard/FootFX/FootFXFixedTimeRun.txt
+  uploadId: 282757

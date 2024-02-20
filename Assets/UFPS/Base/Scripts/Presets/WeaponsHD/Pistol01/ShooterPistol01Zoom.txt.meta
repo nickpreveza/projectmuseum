@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 53c5adf7964444645969747c41ad29a4
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/ShooterPistol01Zoom.txt
+  uploadId: 282757

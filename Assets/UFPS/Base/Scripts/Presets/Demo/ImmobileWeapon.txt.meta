@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 2d619249882dd5c4faf818a6862f465b
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Presets/Demo/ImmobileWeapon.txt
+  uploadId: 282757

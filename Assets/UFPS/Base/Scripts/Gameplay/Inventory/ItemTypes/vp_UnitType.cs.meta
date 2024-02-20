@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: cd9dde0a70a810340a08feebb42bebc5
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: 0ae30c8e74cda574089dd51cd92775b8, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Gameplay/Inventory/ItemTypes/vp_UnitType.cs
+  uploadId: 282757

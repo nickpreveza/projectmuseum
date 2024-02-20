@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: a9009e7448b6cd04b8c6d8b8f6e72325
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Gameplay/Editor/vp_RemotePlayerWizard.cs
+  uploadId: 282757

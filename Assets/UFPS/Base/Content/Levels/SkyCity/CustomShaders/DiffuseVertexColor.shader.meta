@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5f2e318166a2346a4a1c50f27f484127
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Content/Levels/SkyCity/CustomShaders/DiffuseVertexColor.shader
+  uploadId: 282757

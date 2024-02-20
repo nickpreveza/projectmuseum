@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: ab7c1e85076c2b44599b866b59a2c770
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Content/Prefabs/SpawnPoints/Object/ObjectSpawnPointDirectional.prefab
+  uploadId: 282757

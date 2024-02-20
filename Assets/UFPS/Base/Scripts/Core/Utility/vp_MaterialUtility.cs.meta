@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 89957bde791a6d84da9077aa9ce92b75
+timeCreated: 1468348622
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Core/Utility/vp_MaterialUtility.cs
+  uploadId: 282757

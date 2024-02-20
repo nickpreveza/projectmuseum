@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: cb3014ba88265494a91e9c2dd1da4727
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Content/Prefabs/Projectiles/KnifeAttack.prefab
+  uploadId: 282757

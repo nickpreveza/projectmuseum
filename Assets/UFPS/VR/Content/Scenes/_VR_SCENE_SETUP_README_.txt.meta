@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cd9173bd2a2774d4b9addfad0e18550e
+timeCreated: 1468581863
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/VR/Content/Scenes/_VR_SCENE_SETUP_README_.txt
+  uploadId: 282757

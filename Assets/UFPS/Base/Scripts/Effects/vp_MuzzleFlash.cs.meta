@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 7cc8bc753e6c65b40bfca961906f4480
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Effects/vp_MuzzleFlash.cs
+  uploadId: 282757

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 87ae67f728dce4fb08385f4fe3aec5ef
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Content/Art/Body/Animators/UFPSExampleAnimator.controller
+  uploadId: 282757

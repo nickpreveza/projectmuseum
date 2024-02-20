@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: a68d8683858dbc0438bb21da98e62a0d
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Core/Editor/vp_EventDumpWindow.cs
+  uploadId: 282757

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 178bc10abb8fd7f4da668ecff4964290
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Presets/Demo/ModernWeapon.txt
+  uploadId: 282757

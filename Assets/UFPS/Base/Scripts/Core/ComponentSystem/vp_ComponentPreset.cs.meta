@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 14bb534b6f8337242ad8c24f75bd4d3d
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Core/ComponentSystem/vp_ComponentPreset.cs
+  uploadId: 282757

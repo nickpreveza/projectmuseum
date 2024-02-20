@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: f76225c64c2489246b87fd1c7c382dfd
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Presets/Demo/DrunkController.txt
+  uploadId: 282757

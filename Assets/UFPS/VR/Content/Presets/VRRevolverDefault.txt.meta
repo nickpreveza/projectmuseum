@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8263b3f74166b9d48b94466fa8e657f9
+timeCreated: 1468442089
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/VR/Content/Presets/VRRevolverDefault.txt
+  uploadId: 282757

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 799184b8f0d4d3c4ba5aa54d277917fa
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponPullDown.txt
+  uploadId: 282757

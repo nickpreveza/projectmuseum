@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4e5c8bcc4ef4ad142a9661f73a5aa2a1
+timeCreated: 1459353917
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Content/Surfaces/SurfaceFX/FootstepOnWood.asset
+  uploadId: 282757

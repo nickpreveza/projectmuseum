@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 046c81d78cae9a34fb1a85316c671872
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraDead.txt
+  uploadId: 282757

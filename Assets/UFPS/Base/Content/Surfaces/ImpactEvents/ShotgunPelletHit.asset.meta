@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5c22d075508c16a4fbfb9736b15913ff
+timeCreated: 1460657564
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Content/Surfaces/ImpactEvents/ShotgunPelletHit.asset
+  uploadId: 282757

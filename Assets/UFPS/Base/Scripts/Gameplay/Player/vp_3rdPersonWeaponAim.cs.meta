@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 8e9b7e531ec4bab4286b78b34f2a8936
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 400
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Gameplay/Player/vp_3rdPersonWeaponAim.cs
+  uploadId: 282757

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2aa9d9c361a2ebb41881f14217659ef1
+timeCreated: 1468514122
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/VR/Content/Presets/VRCameraDead.txt
+  uploadId: 282757

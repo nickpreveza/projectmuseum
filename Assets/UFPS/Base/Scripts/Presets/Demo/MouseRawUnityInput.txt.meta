@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 0a01934e1bdcb0f41ba1ab45766300f7
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Presets/Demo/MouseRawUnityInput.txt
+  uploadId: 282757

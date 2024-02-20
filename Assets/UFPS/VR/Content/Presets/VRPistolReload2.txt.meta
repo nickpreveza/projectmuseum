@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7f5c695420274104d874affc4dcb6167
+timeCreated: 1468507323
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/VR/Content/Presets/VRPistolReload2.txt
+  uploadId: 282757

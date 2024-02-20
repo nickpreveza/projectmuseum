@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 55a89688b419c5e4f8b134c5852c9b0a
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Core/Utility/vp_WaypointGizmo.cs
+  uploadId: 282757

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 4cd9454dcdfdb094d85d1555b03dde8f
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Content/Art/Effects/Shells/Shell.physicMaterial
+  uploadId: 282757

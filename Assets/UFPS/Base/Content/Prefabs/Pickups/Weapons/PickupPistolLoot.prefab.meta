@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: e876e3b98e3084a48a235f77e3f9c099
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Content/Prefabs/Pickups/Weapons/PickupPistolLoot.prefab
+  uploadId: 282757

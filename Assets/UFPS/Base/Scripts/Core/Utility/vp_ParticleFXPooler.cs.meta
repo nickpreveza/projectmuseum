@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: a2542f9b3068d264e8c9fd46046e8592
+timeCreated: 1459540013
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Core/Utility/vp_ParticleFXPooler.cs
+  uploadId: 282757

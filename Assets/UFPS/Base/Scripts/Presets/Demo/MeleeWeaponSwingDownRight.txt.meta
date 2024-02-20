@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 6ddce1f9b012c0b42850fbcc90d97de8
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponSwingDownRight.txt
+  uploadId: 282757

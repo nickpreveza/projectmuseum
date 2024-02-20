@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 41213e3e494c45046bd64d32eb0072dd
+timeCreated: 1460661217
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Content/Surfaces/SurfaceFX/ShotgunPelletOnMetal.asset
+  uploadId: 282757

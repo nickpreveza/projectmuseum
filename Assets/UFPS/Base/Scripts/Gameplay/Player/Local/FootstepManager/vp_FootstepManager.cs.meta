@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 78db10b0c0e15b04193ec8d0d254c1bd
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Gameplay/Player/Local/FootstepManager/vp_FootstepManager.cs
+  uploadId: 282757

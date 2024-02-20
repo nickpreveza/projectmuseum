@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 40b73606d45c7e0408551e587b60fae4
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Content/Prefabs/Explosions/CubeExplosion.prefab
+  uploadId: 282757

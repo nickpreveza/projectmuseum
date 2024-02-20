@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 04b8d7aad4b8cde44a32c3fa1ab49150
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Gameplay/Player/Local/Interaction/vp_Interactable.cs
+  uploadId: 282757

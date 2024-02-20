@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: b9da03374705f6c4592e4c5e61ad24a7
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Presets/Standard/Weapon/WeaponPistolCrouch.txt
+  uploadId: 282757

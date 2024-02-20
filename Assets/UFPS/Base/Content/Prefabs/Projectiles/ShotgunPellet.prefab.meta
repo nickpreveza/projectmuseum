@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3513cfb9cf3f9014f85f2373081d1b23
+timeCreated: 1460657520
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Content/Prefabs/Projectiles/ShotgunPellet.prefab
+  uploadId: 282757

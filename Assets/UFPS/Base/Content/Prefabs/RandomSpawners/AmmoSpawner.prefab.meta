@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 5f328c2db9e04774d8c7216cccc9dd4a
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Content/Prefabs/RandomSpawners/AmmoSpawner.prefab
+  uploadId: 282757

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 83ab3e8a4a8733a499812c5d29ab157f
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraRun.txt
+  uploadId: 282757

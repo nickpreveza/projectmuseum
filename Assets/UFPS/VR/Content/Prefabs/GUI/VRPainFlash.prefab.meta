@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 916bb03b6ba48ca4788b07e00d27c035
+timeCreated: 1467803871
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/VR/Content/Prefabs/GUI/VRPainFlash.prefab
+  uploadId: 282757

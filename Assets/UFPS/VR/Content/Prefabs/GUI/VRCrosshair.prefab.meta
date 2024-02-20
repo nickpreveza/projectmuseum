@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4d1d92aa68c3f4d41ac4badbd81e4c63
+timeCreated: 1429013239
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/VR/Content/Prefabs/GUI/VRCrosshair.prefab
+  uploadId: 282757

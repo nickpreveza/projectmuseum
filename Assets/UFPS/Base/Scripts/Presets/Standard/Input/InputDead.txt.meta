@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 2c285fc509108314d94da5d41fc693a9
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Presets/Standard/Input/InputDead.txt
+  uploadId: 282757

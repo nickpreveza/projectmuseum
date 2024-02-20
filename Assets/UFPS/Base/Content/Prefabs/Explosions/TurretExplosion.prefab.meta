@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 95ea751e11c597448b8709bc4f30ecb3
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Content/Prefabs/Explosions/TurretExplosion.prefab
+  uploadId: 282757

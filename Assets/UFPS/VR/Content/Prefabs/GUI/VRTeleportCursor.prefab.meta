@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b8d0a4c5d6570024582ab70796c013fd
+timeCreated: 1467801833
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/VR/Content/Prefabs/GUI/VRTeleportCursor.prefab
+  uploadId: 282757

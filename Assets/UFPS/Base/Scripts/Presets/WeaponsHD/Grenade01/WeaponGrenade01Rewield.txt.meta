@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: e2b11981773987140b2379566bd92860
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Grenade01/WeaponGrenade01Rewield.txt
+  uploadId: 282757

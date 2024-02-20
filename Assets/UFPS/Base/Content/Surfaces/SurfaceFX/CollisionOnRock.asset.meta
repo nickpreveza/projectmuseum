@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 1246383dcf92af74b884c8dadb1a3897
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Content/Surfaces/SurfaceFX/CollisionOnRock.asset
+  uploadId: 282757

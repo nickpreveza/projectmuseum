@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: b468e2c06761eff4db6862aa008a26fa
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Content/Prefabs/Projectiles/RevolverBullet.prefab
+  uploadId: 282757

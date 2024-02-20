@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: e11d6f846c4f4cb43b88f24f7217d275
+TextScriptImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Presets/Demo/MeleeAttackToDown.txt
+  uploadId: 282757

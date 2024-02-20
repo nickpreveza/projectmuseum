@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dfd344a51d17f8147b250ed1fe66a869
+timeCreated: 1468524078
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/VR/Content/Prefabs/VRModes/VRModeComfortable.prefab
+  uploadId: 282757

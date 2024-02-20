@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: a015ca9d6a1aeb148941bb3544885cc1
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Content/Prefabs/Projectiles/PistolBullet.prefab
+  uploadId: 282757

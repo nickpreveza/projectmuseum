@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: fea9ee4ea4a43af498f15d2d15130c8e
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Gameplay/Editor/vp_SpawnPointEditor.cs
+  uploadId: 282757

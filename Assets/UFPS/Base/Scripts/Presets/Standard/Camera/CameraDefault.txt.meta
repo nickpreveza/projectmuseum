@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: ca2b85837cc8cae44b22056fd6d3052e
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraDefault.txt
+  uploadId: 282757

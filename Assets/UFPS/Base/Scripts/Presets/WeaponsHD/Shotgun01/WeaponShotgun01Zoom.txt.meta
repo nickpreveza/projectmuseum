@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 750ce9390289c47459eda0392ef85546
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Shotgun01/WeaponShotgun01Zoom.txt
+  uploadId: 282757

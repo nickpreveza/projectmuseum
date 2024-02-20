@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: ff23a9a2574b88d42bc2aeadc0203c06
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Core/Attributes/vp_SeparatorAttribute.cs
+  uploadId: 282757

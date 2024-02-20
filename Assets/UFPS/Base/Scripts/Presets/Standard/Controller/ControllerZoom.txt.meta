@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 28eae9255eef703418634b11fd7722f8
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Presets/Standard/Controller/ControllerZoom.txt
+  uploadId: 282757

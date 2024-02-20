@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 7026e7c6d0992824eb4c0e9d743c77d4
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/GUI/vp_PainHUD.cs
+  uploadId: 282757

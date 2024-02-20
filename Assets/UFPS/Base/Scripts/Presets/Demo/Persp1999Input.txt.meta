@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: bb8704736aa4f72479055a9fe9218d09
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Presets/Demo/Persp1999Input.txt
+  uploadId: 282757

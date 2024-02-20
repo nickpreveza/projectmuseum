@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 7feeac012b234434ea0651b060d894f2
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Content/Prefabs/Pickups/Weapons/Ammo/PickupPistolAmmo.prefab
+  uploadId: 282757

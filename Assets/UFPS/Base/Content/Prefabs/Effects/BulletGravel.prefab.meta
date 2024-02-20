@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: a6cbe21ab19ec7248894f32ae1c45979
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Content/Prefabs/Effects/BulletGravel.prefab
+  uploadId: 282757

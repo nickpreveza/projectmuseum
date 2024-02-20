@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 64ff685fc596fb940828fd56d8adb421
+timeCreated: 1464275048
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Gameplay/Powerups/vp_SlomoPowerup.cs
+  uploadId: 282757

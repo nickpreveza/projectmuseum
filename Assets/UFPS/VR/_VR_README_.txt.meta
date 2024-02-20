@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ff9621b6bfb86f842baa8b168eeb818d
+timeCreated: 1468352351
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/VR/_VR_README_.txt
+  uploadId: 282757

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: e3e770c862d6fe24f9a78c867ca41966
+timeCreated: 1457380206
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Effects/SurfaceSystem/Editor/vp_DecalManagerEditor.cs
+  uploadId: 282757

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: dee45e6da0dc2a34abef920c5ad48b6d
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Presets/Standard/Weapon/WeaponPistolRun.txt
+  uploadId: 282757

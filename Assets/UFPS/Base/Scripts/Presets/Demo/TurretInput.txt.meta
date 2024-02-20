@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: d85532b1f00b7b446867a965411204a9
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Presets/Demo/TurretInput.txt
+  uploadId: 282757

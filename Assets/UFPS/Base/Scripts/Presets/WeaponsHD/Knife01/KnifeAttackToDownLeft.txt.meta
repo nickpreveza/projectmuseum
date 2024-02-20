@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: b97febde4d2340444897b8cd67acbd37
+TextScriptImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2943
+  packageName: 'UFPS : Ultimate FPS'
+  packageVersion: 1.7.5
+  assetPath: Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Knife01/KnifeAttackToDownLeft.txt
+  uploadId: 282757
