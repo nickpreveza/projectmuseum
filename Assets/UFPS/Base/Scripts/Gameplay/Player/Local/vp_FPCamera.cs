@@ -375,7 +375,7 @@ public class vp_FPCamera : vp_Component
 
 		UpdateZoom();
 
-		UpdateSwaying();
+		//UpdateSwaying();
 
 		UpdateBob();
 
@@ -795,6 +795,7 @@ public class vp_FPCamera : vp_Component
 		if (MuteRoll)
 			return;
 
+		m_Transform = this.gameObject.transform;
 		Vector3 localVelocity = Transform.InverseTransformDirection(FPController.CharacterController.velocity * 0.016f) * Time.timeScale;
 		AddRollForce(localVelocity.x * RotationStrafeRoll);
 

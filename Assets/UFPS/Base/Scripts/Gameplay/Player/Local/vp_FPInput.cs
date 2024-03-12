@@ -118,7 +118,7 @@ public class vp_FPInput : vp_Component
 		// manage input for weapons
 		InputAttack();
 		InputReload();
-		InputSetWeapon();
+		//InputSetWeapon();
 
 		// manage camera related input
 		InputCamera();
@@ -238,9 +238,7 @@ public class vp_FPInput : vp_Component
 		else
 			FPPlayer.Zoom.TryStop();
 
-		// toggle 3rd person mode
-		if (vp_Input.GetButtonDown("Toggle3rdPerson"))
-			FPPlayer.CameraToggle3rdPerson.Send();
+	
 
 	}
 
@@ -365,50 +363,15 @@ public class vp_FPInput : vp_Component
 		}
 
 		// see if any of the mouse buttons are being held down
-		if (Input.GetMouseButton(0) || Input.GetMouseButton(1) || Input.GetMouseButton(2))
+		if (!GameManager.Instance.isPaused)
 		{
 
-			// if we have defined mouse cursor zones, check to see if the
-			// mouse cursor is inside any of them
-			if (MouseCursorZones.Length > 0)
-			{
-				foreach (Rect r in MouseCursorZones)
-				{
-					if (r.Contains(m_MousePos))
-					{
-						// mouse is being held down inside a mouse cursor zone, so make
-						// sure the cursor is not locked and don't lock it this frame
-						if (vp_Utility.LockCursor)
-							vp_Utility.LockCursor = false;
-						goto DontLock;
-					}
-				}
-			}
+            vp_Utility.LockCursor = true;
 
-			// no zones prevent firing the current weapon. hide mouse cursor
-			// and lock it at the center of the screen
-			if (!vp_Utility.LockCursor)
-				vp_Utility.LockCursor = true;
 
-		}
+        }
 
-	DontLock:
-
-		// if user presses 'ENTER', toggle mouse cursor on / off
-		if (vp_Input.GetButtonUp("Accept1")
-			|| vp_Input.GetButtonUp("Accept2")
-			|| vp_Input.GetButtonUp("Menu")
-			)
-		{
-#if UNITY_EDITOR && UNITY_5
-			if(Input.GetKeyUp(KeyCode.Escape))
-				vp_Utility.LockCursor = false;
-			else
-#endif
-			vp_Utility.LockCursor = !vp_Utility.LockCursor;
-		}
-
-	}
+    }
 
 
 	/// <summary>

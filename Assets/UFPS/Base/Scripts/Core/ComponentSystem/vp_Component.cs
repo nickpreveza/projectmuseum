@@ -112,7 +112,7 @@ public class vp_Component : MonoBehaviour
 		get
 		{
 			if(m_Transform == null)
-				m_Transform = transform;
+				m_Transform = this.transform;
 			return m_Transform;
 		}
 	}
