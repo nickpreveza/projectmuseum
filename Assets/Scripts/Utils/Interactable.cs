@@ -2,32 +2,35 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Outline))]
 public abstract class Interactable : MonoBehaviour
 {
-    [SerializeField] LayerMask interactableLayer;
-
+    [Header("Interactable Base")]
     public bool isInteractable = true;
-    
-    public bool interactableAgain; //can the interaction be repeated;
     public float delayBetweenInteractions = 0.1f;
 
-    //One off
+    [Header("Ability: Destroy-After-Interaction")]
     public bool destroyAfterInteraction;
-    public float destroyDelay;
+    public float destroyDelay = .1f;
 
-
-    //Return to Start
+    [Header("Ability: Return to Original Position")]
     public bool returnToOriginalPosition;
     public float returnToStartDelay = 5;
 
-    //Lerp
+    [Header("Follow speed")]
     public float lerpSpeed = 10f;
 
-    //UI
+    [Header("UI")]
     public float overlayOffset;
     public bool usePlacementOverlay;
 
     protected Outline outline;
+
+
+    [HideInInspector] public Rigidbody rb;
+    [HideInInspector] public Collider col;
+    [HideInInspector] public Vector3 startPos;
+    [HideInInspector] public Quaternion startRot;
 
     private void Awake()
     {
@@ -35,10 +38,14 @@ public abstract class Interactable : MonoBehaviour
         gameObject.tag = "Interactable";
 
         outline = GetComponent<Outline>();
-        if (!isInteractable)
-        {
-            outline.enabled = false;
-        }
+
+        rb = this.GetComponent<Rigidbody>();
+        col = this.GetComponent<Collider>();
+
+        startPos = transform.position;
+        startRot = transform.rotation;
+
+        DisableOutline();
     }
 
     public bool TryInteract(Transform grabPointTransform)
@@ -52,7 +59,19 @@ public abstract class Interactable : MonoBehaviour
         return true;
     }
 
-    public abstract void Highlight(bool enable);
+    public virtual void Highlight(bool enable)
+    {
+        //UIManager.Instance.overlayPanel?.GetComponent<OverlayPanel>().DisablePrompt();
+        if (enable)
+        {
+            EnableOutline();
+        }
+        else
+        {
+            DisableOutline();
+        }
+
+    }
 
     public abstract void Interact(Transform grabPointTransform);
 

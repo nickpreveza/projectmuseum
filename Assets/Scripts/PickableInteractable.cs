@@ -4,26 +4,9 @@ using System.Collections.Generic;
 
 public class PickableInteractable : Interactable
 {
-    [SerializeField] Rigidbody rb;
-    [SerializeField] Collider col;
-    [SerializeField] Vector3 startPos;
-    [SerializeField] Quaternion startRot;
-
     [SerializeField] Transform grabPointTransform;
     IEnumerator coroutine;
 
-    void Start()
-    {
-        rb = this.GetComponent<Rigidbody>();
-        col = this.GetComponent<Collider>();
-
-        startPos = transform.position;
-        startRot = transform.rotation;
-
-        DisableOutline();
-    }
-
-    
     private void Update()
     {
         if (grabPointTransform != null)
@@ -33,20 +16,6 @@ public class PickableInteractable : Interactable
             
             transform.position = Vector3.Lerp(transform.position, grabPointTransform.position, Time.deltaTime * lerpSpeed);
         }
-    }
-
-    public override void Highlight(bool enable)
-    {
-        //UIManager.Instance.overlayPanel?.GetComponent<OverlayPanel>().DisablePrompt();
-        if (enable)
-        {
-            EnableOutline();
-        }
-        else
-        {
-            DisableOutline();
-        }
-       
     }
 
     public override void Interact(Transform _grabPointTransform)
