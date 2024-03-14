@@ -4,36 +4,78 @@ using UnityEngine;
 
 public abstract class Interactable : MonoBehaviour
 {
-    public float overlayOffset;
+    [SerializeField] LayerMask interactableLayer;
+
     public bool isInteractable = true;
+    
+    public bool interactableAgain; //can the interaction be repeated;
+    public float delayBetweenInteractions = 0.1f;
+
+    //One off
     public bool destroyAfterInteraction;
-    public float destroyDelay; //if you need to play an animation
+    public float destroyDelay;
+
+
+    //Return to Start
+    public bool returnToOriginalPosition;
+    public float returnToStartDelay = 5;
+
+    //Lerp
+    public float lerpSpeed = 10f;
+
+    //UI
+    public float overlayOffset;
     public bool usePlacementOverlay;
-    public bool interactableAgain;
-    public float delayBetweenInteractions;
-    public virtual void Interact()
+
+    protected Outline outline;
+
+    private void Awake()
     {
-        isInteractable = false;
-        UIManager.Instance.overlayPanel.GetComponent<OverlayPanel>().DisablePrompt();
-        if (destroyAfterInteraction)
+        //just to make sure you haven't forgot about these 
+        gameObject.tag = "Interactable";
+
+        outline = GetComponent<Outline>();
+        if (!isInteractable)
         {
-            StartCoroutine(DestroyWithDelay());
-        }
-        if (interactableAgain)
-        {
-            StartCoroutine(InteractableAgain());
+            outline.enabled = false;
         }
     }
 
-    IEnumerator InteractableAgain()
+    public bool TryInteract(Transform grabPointTransform)
     {
-        yield return new WaitForSeconds(delayBetweenInteractions);
-        isInteractable = true;
+        if (!isInteractable)
+        {
+            return false;
+        }
+
+        Interact(grabPointTransform);
+        return true;
     }
 
-    IEnumerator DestroyWithDelay()
+    public abstract void Highlight(bool enable);
+
+    public abstract void Interact(Transform grabPointTransform);
+
+    public abstract void Drop();
+
+    public void EnableOutline()
     {
-        yield return new WaitForSeconds(destroyDelay);
-        Destroy(this.gameObject);
+        if (GetComponent<Outline>().enabled == true)
+        {
+            return;
+        }
+
+        if (isInteractable)
+        {
+            GetComponent<Outline>().enabled = true;
+        }
+    }
+
+    public void DisableOutline()
+    {
+        if (isInteractable)
+        {
+            GetComponent<Outline>().enabled = false;
+        }
     }
 }

@@ -10,10 +10,17 @@ using TMPro;
 public class PausePanel : UIPanel
 {
     [Header("Subpanels")]
-    [SerializeField] GameObject settings;
-    [SerializeField] GameObject credits;
-    [SerializeField] GameObject exit;
+    [SerializeField] GameObject settingsPanel;
 
+    [Header("Settings")]
+    [SerializeField] Image audioImage;
+    [SerializeField] Image musicImage;
+    [SerializeField] Sprite audioOn;
+    [SerializeField] Sprite audioOff;
+    [SerializeField] Sprite musicOn;
+    [SerializeField] Sprite musicOff;
+
+    
 
     private void Start()
     {
@@ -22,6 +29,8 @@ public class PausePanel : UIPanel
             UIManager.Instance.pausePanel = this;
             UIManager.Instance.AddPanel(this);
         }
+
+        HideSettingsPanel();
 
     }
 
@@ -34,6 +43,7 @@ public class PausePanel : UIPanel
         }
       
         base.Activate();
+        HideSettingsPanel();
     }
 
     public override void Disable()
@@ -53,9 +63,98 @@ public class PausePanel : UIPanel
         //GameManager.Instance.SetPause = false;
     }
 
+    public void RestartAction()
+    {
+        AudioManager.Instance.ClickSound();
+        UIManager.Instance.OpenPopup(
+                 "Return to title",
+                 "Are you sure you want to exit?",
+                 true,
+                 "exit",
+                 "cancel",
+                 () => GameManager.Instance.ReloadScene(), true);
+
+    }
+
+
+    public void ExitAction()
+    {
+        AudioManager.Instance.ClickSound();
+        UIManager.Instance.OpenPopup(
+             "QUIT GAME",
+             "Are you sure you want to exit?",
+             true,
+             "exit",
+             "cancel",
+             () => GameManager.Instance.ApplicationQuit(), true);
+    }
+
+    public void HideSettingsPanel()
+    {
+        settingsPanel.SetActive(false);
+    }
+
     public void ActionExit()
     {
         UIManager.Instance.OpenMainMenu();
+    }
+
+
+    public void ToggleSettingsPanel()
+    {
+        settingsPanel.SetActive(!settingsPanel.activeSelf);
+        AudioManager.Instance.ClickSound();
+        if (settingsPanel.activeSelf)
+        {
+            if (AudioManager.Instance.musicOn)
+            {
+                musicImage.sprite = musicOn;
+            }
+            else
+            {
+                musicImage.sprite = musicOff;
+            }
+
+            if (AudioManager.Instance.audioOn)
+            {
+                audioImage.sprite = audioOn;
+            }
+            else
+            {
+                audioImage.sprite = audioOff;
+            }
+        }
+    }
+
+    public void ToggleMusic()
+    {
+        AudioManager.Instance.ClickSound();
+        AudioManager.Instance.ToggleMusic();
+
+        if (AudioManager.Instance.musicOn)
+        {
+            musicImage.sprite = musicOn;
+        }
+        else
+        {
+            musicImage.sprite = musicOff;
+        }
+
+    }
+
+    public void ToggleAudio()
+    {
+        AudioManager.Instance.ClickSound();
+        AudioManager.Instance.ToggleAudio();
+
+        if (AudioManager.Instance.audioOn)
+        {
+            audioImage.sprite = audioOn;
+        }
+        else
+        {
+            audioImage.sprite = audioOff;
+        }
     }
 
 

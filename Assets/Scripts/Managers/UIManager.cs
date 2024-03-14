@@ -50,20 +50,6 @@ public class UIManager : MonoBehaviour
         ClosePopup();
     }
 
-    public void GamePauseChanged()
-    {
-        gamePanel.GetComponent<GamePanel>().SetPausePanelState(GameManager.Instance.isPaused);
-
-        if (GameManager.Instance.isPaused)
-        {
-           
-        }
-        else
-        {
-
-        }
-    }
-
     public void OpenPopup(string title, string description, bool available, string option1name, string option2name, popupFunction newFunction, bool showButtons)
     {
         confirmAction = newFunction;
@@ -124,12 +110,6 @@ public class UIManager : MonoBehaviour
     public void HideInventoryPanel()
     {
         gamePanel.GetComponent<GamePanel>().HideInventoryPanel();
-    }
-
-    public void HideGamePanelPause() 
-    {
-        gamePanel.GetComponent<GamePanel>().HideSettingsPanel();
-        gamePanel.GetComponent<GamePanel>().HidePausePanel();
     }
 
     IEnumerator ToggleUIPanelEnum(UIPanel targetPanel, bool state, bool fadeGamePanel = true, float delayAmount = 0.0f)
