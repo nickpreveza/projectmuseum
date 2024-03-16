@@ -1,20 +1,40 @@
 using UnityEngine;
-
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.Events;
 public class WitnessInteractable : MonoBehaviour
 {
-    //generate grid?
-    //line renderer 
-    //lines ui, has to be in the world too 
+    [SerializeField] bool isFocused = false;
+    [SerializeField] bool isSolved = false;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] float inputSpeed = 1f;
+
+    public UnityEvent triggerEvent; //called when puzzle solved
+
+    Vector2 input;
+    private void Update()
     {
-        
+        input.x = Input.GetAxis("Mouse X");
+        input.y = Input.GetAxis("Mouse Y");
+        input = input * inputSpeed;
+
+        if (input.magnitude == 0.0f) return;
+    }
+    public void SetBoardFocus()
+    {
+        isFocused = true;
+        ResetPuzzle();
+
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ExitFocus()
     {
-        
+        isFocused = false;
+        ResetPuzzle();
+    }
+
+    public void ResetPuzzle()
+    {
+
     }
 }
