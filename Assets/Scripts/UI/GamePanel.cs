@@ -13,15 +13,7 @@ public class GamePanel : UIPanel
     public TextMeshProUGUI devText;
     public Textbox textbox;
 
-    [SerializeField] Image audioImage;
-    [SerializeField] Image musicImage;
-    [SerializeField] Sprite audioOn;
-    [SerializeField] Sprite audioOff;
-    [SerializeField] Sprite musicOn;
-    [SerializeField] Sprite musicOff;
 
-    [SerializeField] GameObject settingsPanel;
-    [SerializeField] GameObject pausePanel;
     [SerializeField] GameObject inventoryPanel;
 
     void Start()
@@ -32,84 +24,6 @@ public class GamePanel : UIPanel
             UIManager.Instance.gamePanel = this.GetComponent<UIPanel>();
             UIManager.Instance.AddPanel(this);
         }
-
-        HidePausePanel();
-        HideSettingsPanel();
-    }
-
-    public void ToggleMusic()
-    {
-        AudioManager.Instance.ClickSound();
-        AudioManager.Instance.ToggleMusic();
-
-        if (AudioManager.Instance.musicOn)
-        {
-            musicImage.sprite = musicOn;
-        }
-        else
-        {
-            musicImage.sprite = musicOff;
-        }
-
-    }
-
-    public void ToggleAudio()
-    {
-        AudioManager.Instance.ClickSound();
-       AudioManager.Instance.ToggleAudio();
-
-        if (AudioManager.Instance.audioOn)
-        {
-            audioImage.sprite = audioOn;
-        }
-        else
-        {
-            audioImage.sprite = audioOff;
-        }
-    }
-
-
-    public void ToggleSettingsPanel()
-    {
-        settingsPanel.SetActive(!settingsPanel.activeSelf);
-        AudioManager.Instance.ClickSound();
-        if (settingsPanel.activeSelf)
-        {
-            if (AudioManager.Instance.musicOn)
-            {
-                musicImage.sprite = musicOn;
-            }
-            else
-            {
-                musicImage.sprite = musicOff;
-            }
-
-            if (AudioManager.Instance.audioOn)
-            {
-                audioImage.sprite = audioOn;
-            }
-            else
-            {
-                audioImage.sprite = audioOff;
-            }
-        }
-    }
-
-    public void HideSettingsPanel()
-    {
-        settingsPanel.SetActive(false);
-    }
-
-    public void SetPausePanelState(bool isPaused)
-    {
-        pausePanel.SetActive(isPaused);
-        AudioManager.Instance.ClickSound();
-        HideSettingsPanel();
-    }
-
-    public void HidePausePanel()
-    {
-        pausePanel.SetActive(true);
     }
 
     public void UpdateGUIButtons()
@@ -122,31 +36,7 @@ public class GamePanel : UIPanel
         //getMoneyAnim.SetTrigger("GetMoney");
     }
 
-    public void RestartAction()
-    {
-        AudioManager.Instance.ClickSound();
-        UIManager.Instance.OpenPopup(
-                 "Return to title",
-                 "Are you sure you want to exit?",
-                 true,
-                 "exit",
-                 "cancel",
-                 () => GameManager.Instance.ReloadScene(), true);
-       
-    }
-
-   
-    public void ExitAction()
-    {
-        AudioManager.Instance.ClickSound();
-        UIManager.Instance.OpenPopup(
-             "QUIT GAME",
-             "Are you sure you want to exit?",
-             true,
-             "exit",
-             "cancel",
-             () => GameManager.Instance.ApplicationQuit(), true);
-    }
+    
 
    
     public void ToggleInventoryPanel()

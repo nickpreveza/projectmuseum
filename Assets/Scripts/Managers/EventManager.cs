@@ -13,6 +13,8 @@ public class EventManager : MonoBehaviour
     public event Action<string, string> onPopUpRequested;
     public event Action<int> onExhibitSelected;
 
+    public event Action<GameObject> onItemDropped;
+    public event Action<GameObject> onItemGrabbed;
 
     void Awake()
     {
@@ -24,6 +26,15 @@ public class EventManager : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
+    }
+
+    public void OnItemGrabbed(GameObject item)
+    {
+        onItemGrabbed?.Invoke(item);
+    }
+    public void OnItemDropped(GameObject item)
+    {
+        onItemDropped?.Invoke(item);
     }
 
     public void OnDataLoaded()

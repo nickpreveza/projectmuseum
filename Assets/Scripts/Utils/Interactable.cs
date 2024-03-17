@@ -2,38 +2,99 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Outline))]
 public abstract class Interactable : MonoBehaviour
 {
-    public float overlayOffset;
+    [Header("Interactable Base")]
     public bool isInteractable = true;
+    public float delayBetweenInteractions = 0.1f;
+
+    [Header("Ability: Destroy-After-Interaction")]
     public bool destroyAfterInteraction;
-    public float destroyDelay; //if you need to play an animation
+    public float destroyDelay = .1f;
+
+    [Header("Ability: Return to Original Position")]
+    public bool returnToOriginalPosition;
+    public float returnToStartDelay = 5;
+
+    [Header("Follow speed")]
+    public float lerpSpeed = 10f;
+
+    [Header("UI")]
+    public float overlayOffset;
     public bool usePlacementOverlay;
-    public bool interactableAgain;
-    public float delayBetweenInteractions;
-    public virtual void Interact()
+
+    protected Outline outline;
+
+
+    [HideInInspector] public Rigidbody rb;
+    [HideInInspector] public Collider col;
+    [HideInInspector] public Vector3 startPos;
+    [HideInInspector] public Quaternion startRot;
+
+    private void Awake()
     {
-        isInteractable = false;
-        UIManager.Instance.overlayPanel.GetComponent<OverlayPanel>().DisablePrompt();
-        if (destroyAfterInteraction)
+        //just to make sure you haven't forgot about these 
+        gameObject.tag = "Interactable";
+
+        outline = GetComponent<Outline>();
+
+        rb = this.GetComponent<Rigidbody>();
+        col = this.GetComponent<Collider>();
+
+        startPos = transform.position;
+        startRot = transform.rotation;
+
+        DisableOutline();
+    }
+
+    public bool TryInteract(Transform grabPointTransform)
+    {
+        if (!isInteractable)
         {
-            StartCoroutine(DestroyWithDelay());
+            return false;
         }
-        if (interactableAgain)
+
+        Interact(grabPointTransform);
+        return true;
+    }
+
+    public virtual void Highlight(bool enable)
+    {
+        //UIManager.Instance.overlayPanel?.GetComponent<OverlayPanel>().DisablePrompt();
+        if (enable)
         {
-            StartCoroutine(InteractableAgain());
+            EnableOutline();
+        }
+        else
+        {
+            DisableOutline();
+        }
+
+    }
+
+    public abstract void Interact(Transform grabPointTransform);
+
+    public abstract void Drop();
+
+    public void EnableOutline()
+    {
+        if (GetComponent<Outline>().enabled == true)
+        {
+            return;
+        }
+
+        if (isInteractable)
+        {
+            GetComponent<Outline>().enabled = true;
         }
     }
 
-    IEnumerator InteractableAgain()
+    public void DisableOutline()
     {
-        yield return new WaitForSeconds(delayBetweenInteractions);
-        isInteractable = true;
-    }
-
-    IEnumerator DestroyWithDelay()
-    {
-        yield return new WaitForSeconds(destroyDelay);
-        Destroy(this.gameObject);
+        if (isInteractable)
+        {
+            GetComponent<Outline>().enabled = false;
+        }
     }
 }
