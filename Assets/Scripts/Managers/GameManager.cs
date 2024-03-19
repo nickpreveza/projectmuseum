@@ -74,6 +74,16 @@ public class GameManager : MonoBehaviour
     {
         if (Input.GetKeyUp(KeyCode.Escape))
         {
+            if (UIManager.Instance.popupActive)
+            {
+               // UIManager.Instance.ClosePopup();
+               // UIManager.Instance.CloseTextInspect();
+               
+                //vp_Utility.LockCursor = true;
+               // UIManager.Instance.popupActive = false;
+               // return;
+            }
+
             if (isPaused) //previous state
             {
                 //return to play

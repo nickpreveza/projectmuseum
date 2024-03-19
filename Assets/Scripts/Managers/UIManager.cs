@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -24,7 +25,7 @@ public class UIManager : MonoBehaviour
 
     [SerializeField] UIPanel currentSubpanel;
     [SerializeField] UniversalPopup universalPopup;
-
+    [SerializeField] UniversalPopup textInspectPopup;
     public delegate void popupFunction();
     public popupFunction confirmAction;
     public popupFunction additionalAction;
@@ -48,6 +49,23 @@ public class UIManager : MonoBehaviour
     private void Start()
     {
         ClosePopup();
+        CloseTextInspect();
+    }
+
+    public void ShowTextInspect(string textContent, string gameParent)
+    {
+        confirmAction = null;
+        additionalAction = null;
+
+        textInspectPopup.gameObject.SetActive(true);
+        textInspectPopup.SetDataTextInspect(textContent, gameParent);
+        popupActive = true;
+    }
+
+    public void CloseTextInspect()
+    {
+        textInspectPopup.Close();
+        popupActive = false;
     }
 
     public void OpenPopup(string title, string description, bool available, string option1name, string option2name, popupFunction newFunction, bool showButtons)
@@ -57,6 +75,7 @@ public class UIManager : MonoBehaviour
 
         universalPopup.gameObject.SetActive(true);
         universalPopup.SetData(title, description, available, option1name, option2name, showButtons);
+        popupActive = true;
     }
 
     public void OpenPopupInformative(string title, string description, string option1name)

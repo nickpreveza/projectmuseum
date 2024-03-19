@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
 
 public abstract class UIPanel : MonoBehaviour
 {
     public bool fadeIn;
     public bool fadeOut;
+    public bool enableDoF;
     [HideInInspector] public bool isActive;
     public bool startEnabled;
     [HideInInspector] public GameObject panelObject;
@@ -22,6 +25,16 @@ public abstract class UIPanel : MonoBehaviour
     }
     public virtual void Activate()
     {
+        if (enableDoF)
+        {
+            DepthOfField dof;
+            if (GameManager.Instance.globalVolume.profile.TryGet<DepthOfField>(out dof))
+            {
+                dof.active = true;
+            }
+
+        }
+
         isActive = true;
         panelObject.SetActive(true);
 
@@ -73,6 +86,14 @@ public abstract class UIPanel : MonoBehaviour
 
     public virtual void Disable()
     {
+
+        DepthOfField dof;
+        if (GameManager.Instance.globalVolume.profile.TryGet<DepthOfField>(out dof))
+        {
+            if (dof != null)
+                dof.active = false;
+        }
+
         if (fadeOut)
         {
             canvasGroup.alpha = 1;

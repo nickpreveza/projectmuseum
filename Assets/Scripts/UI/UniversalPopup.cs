@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
 
 public class UniversalPopup : UIPopup
 {
-    //probably update this to support images 
+    public bool dofOnShow;
+
     [SerializeField] TextMeshProUGUI title;
     [SerializeField] TextMeshProUGUI description;
 
@@ -15,6 +18,23 @@ public class UniversalPopup : UIPopup
     [SerializeField] Button cancel;
     [SerializeField] TextMeshProUGUI cancelText;
 
+    public void EnableDof()
+    {
+        DepthOfField dof;
+        if (GameManager.Instance.globalVolume.profile.TryGet<DepthOfField>(out dof))
+        {
+            dof.active = true;
+        }
+    }
+
+    public void DisableDof()
+    {
+        DepthOfField dof;
+        if (GameManager.Instance.globalVolume.profile.TryGet<DepthOfField>(out dof))
+        {
+            dof.active = false;
+        }
+    }
     public void SetDataForReward(string newTitle, string newDescription, string option1name, string option2name)
     {
         cancel.gameObject.SetActive(true);
@@ -64,17 +84,22 @@ public class UniversalPopup : UIPopup
 
     }
 
-    public void SetDataInformative(string newTitle, string newDescription, string option1name)
+    public void SetDataTextInspect(string textContent, string gameParent)
     {
-        title.text = newTitle;
-        description.text = newDescription;
+        title.text = gameParent;
+        description.text = textContent;
         confirm.onClick.RemoveAllListeners();
         cancel.onClick.RemoveAllListeners();
         confirm.interactable = true;
         cancel.gameObject.SetActive(false);
         confirm.gameObject.SetActive(true);
-        confirmText.text = option1name;
+        confirmText.text = "CLOSE";
         confirm.onClick.AddListener(() => CloseWithDelay());
+
+        if (dofOnShow)
+        {
+            EnableDof();
+        }
     }
 
     public void SetDataForMonument(string newTitle, string newDescription, string option1name)
@@ -107,6 +132,7 @@ public class UniversalPopup : UIPopup
 
     public override void Close()
     {
+        DisableDof();
         base.Close();
     }
 
