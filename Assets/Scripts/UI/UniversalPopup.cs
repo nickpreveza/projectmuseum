@@ -123,7 +123,7 @@ public class UniversalPopup : UIPopup
     
     IEnumerator CloseEnum()
     {
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSecondsRealtime(0.1f);
         AudioManager.Instance.ClickSound();
         UIManager.Instance.waitingForPopupReply = false;
         Close();

@@ -190,6 +190,12 @@ public class GameManager : MonoBehaviour
     public void ApplicationQuit()
     {
         Application.Quit();
+
+#if UNITY_EDITOR
+        //Stop playing the scene
+        UnityEditor.EditorApplication.isPlaying = false;
+#endif
+
     }
 
 }

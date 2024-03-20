@@ -57,8 +57,8 @@ public class PausePanel : UIPanel
                  "Return to title",
                  "Are you sure you want to exit?",
                  true,
-                 "exit",
-                 "cancel",
+                 "sure",
+                 "back",
                  () => GameManager.Instance.ReloadScene(), true);
 
     }
@@ -71,8 +71,8 @@ public class PausePanel : UIPanel
              "QUIT GAME",
              "Are you sure you want to exit?",
              true,
-             "exit",
-             "cancel",
+             "sure",
+             "back",
              () => GameManager.Instance.ApplicationQuit(), true);
     }
 
