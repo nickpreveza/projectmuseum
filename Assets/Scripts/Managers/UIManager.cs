@@ -33,6 +33,9 @@ public class UIManager : MonoBehaviour
     public bool waitingForPopupReply;
 
     public GameColors colors;
+
+    [SerializeField] Animator cursorAnim;
+    public bool cursorIsHighlighted;
     void Awake()
     {
         if (Instance == null)
@@ -59,6 +62,7 @@ public class UIManager : MonoBehaviour
 
         textInspectPopup.gameObject.SetActive(true);
         textInspectPopup.SetDataTextInspect(textContent, gameParent);
+        SetCursorVisibility(false);
         popupActive = true;
     }
 
@@ -66,6 +70,7 @@ public class UIManager : MonoBehaviour
     {
         textInspectPopup.Close();
         popupActive = false;
+        SetCursorVisibility(true);
     }
 
     public void OpenPopup(string title, string description, bool available, string option1name, string option2name, popupFunction newFunction, bool showButtons)
@@ -211,11 +216,47 @@ public class UIManager : MonoBehaviour
         ClosePanels();
         gamePanel.GetComponent<GamePanel>().Setup();
         gamePanel.Activate();
-
+        cursorAnim.SetTrigger("Normal");
         menuActive = false;
         GameManager.Instance.menuActive = false;
 
         UpdateHUD();
+    }
+
+    public void SetCursorVisibility(bool show)
+    {
+        if (show)
+        {
+            cursorAnim.gameObject.GetComponent<CanvasGroup>().alpha = 1;
+        }
+        else
+        {
+            cursorAnim.gameObject.GetComponent<CanvasGroup>().alpha = 0;
+        }
+    }
+
+    public void SetCursorHighlight(bool highlightState)
+    {
+        if (cursorAnim == null) return;
+        if (cursorIsHighlighted == highlightState) return;
+        cursorIsHighlighted = highlightState;
+        if (cursorIsHighlighted)
+        {
+            SetCursorHighlight();
+        }
+        else
+        {
+            SetCursorNormal();
+        }
+    }
+    void SetCursorNormal()
+    {
+        cursorAnim.SetTrigger("Normal");
+    }
+
+     void SetCursorHighlight()
+    {
+        cursorAnim.SetTrigger("Outline");
     }
 
     public void OpenMainMenu()
@@ -293,6 +334,7 @@ public class UIManager : MonoBehaviour
         if (GameManager.Instance.isPaused)
         {
             gamePanel.canvasGroup.alpha = 0;
+            SetCursorVisibility(false);
             CloseTextInspect();
             pausePanel.Activate();
             
@@ -300,6 +342,7 @@ public class UIManager : MonoBehaviour
         else
         {
             gamePanel.canvasGroup.alpha = 1;
+            SetCursorVisibility(true);
             CloseTextInspect();
             ClosePopup();
             pausePanel.Disable();
