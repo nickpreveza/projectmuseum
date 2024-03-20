@@ -293,12 +293,17 @@ public class UIManager : MonoBehaviour
         if (GameManager.Instance.isPaused)
         {
             gamePanel.canvasGroup.alpha = 0;
+            CloseTextInspect();
             pausePanel.Activate();
+            
         }
         else
         {
             gamePanel.canvasGroup.alpha = 1;
+            CloseTextInspect();
+            ClosePopup();
             pausePanel.Disable();
+          
         }
     }
 
