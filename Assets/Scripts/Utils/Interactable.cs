@@ -48,14 +48,14 @@ public abstract class Interactable : MonoBehaviour
         DisableOutline();
     }
 
-    public bool TryInteract(Transform grabPointTransform)
+    public bool TryInteract(Transform grabPointTransform, FixedJoint targetJoint)
     {
         if (!isInteractable)
         {
             return false;
         }
 
-        Interact(grabPointTransform);
+        Interact(grabPointTransform, targetJoint);
         return true;
     }
 
@@ -74,7 +74,7 @@ public abstract class Interactable : MonoBehaviour
 
     }
 
-    public abstract void Interact(Transform grabPointTransform);
+    public abstract void Interact(Transform grabPointTransform, FixedJoint targetJoint);
 
     public abstract void Drop();
 

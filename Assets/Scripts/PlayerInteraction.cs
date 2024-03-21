@@ -12,10 +12,14 @@ public class PlayerInteraction : MonoBehaviour
     public bool holdsItem;
     public GameObject itemInHands;
 
+    [SerializeField] FixedJoint joint;
+
+       
     private void Start()
     {
         EventManager.Instance.onItemDropped += OnDrop;
         EventManager.Instance.onItemGrabbed += OnGrab;
+        
     }
 
     private void OnDestroy()
@@ -41,7 +45,7 @@ public class PlayerInteraction : MonoBehaviour
                     {
                         if (hit.transform.TryGetComponent(out Interactable interactable))
                         {
-                            interactable.TryInteract(grabPointTransform);
+                            interactable.TryInteract(grabPointTransform, joint);
                         }
                     }
 

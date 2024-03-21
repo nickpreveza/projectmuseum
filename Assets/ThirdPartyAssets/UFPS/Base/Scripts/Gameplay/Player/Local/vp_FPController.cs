@@ -231,8 +231,15 @@ public class vp_FPController : vp_CharacterController
 	/// </summary>
 	protected override void FixedUpdate()
 	{
+        if (GameManager.Instance != null)
+        {
+            if (GameManager.Instance.itemInspected || UIManager.Instance.popupActive)
+            {
+                return;
+            }
+        }
 
-		if (Time.timeScale == 0.0f)
+        if (Time.timeScale == 0.0f)
 			return;
 
 		// convert user input to motor throttle

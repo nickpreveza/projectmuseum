@@ -16,6 +16,7 @@ public class EventManager : MonoBehaviour
     public event Action<GameObject> onItemDropped;
     public event Action<GameObject> onItemGrabbed;
 
+    public event Action<int,int, bool> onActionTriggered; //source, target, actionState
     void Awake()
     {
         if (Instance == null)
@@ -26,6 +27,11 @@ public class EventManager : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
+    }
+
+    public void OnActionTriggered(int sourceIndex, int targetIndex, bool enabled)
+    { 
+        onActionTriggered?.Invoke(sourceIndex, targetIndex, enabled);
     }
 
     public void OnItemGrabbed(GameObject item)
