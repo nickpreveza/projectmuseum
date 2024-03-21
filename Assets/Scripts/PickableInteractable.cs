@@ -6,16 +6,28 @@ public class PickableInteractable : Interactable
 {
     [SerializeField] Transform grabPointTransform;
     IEnumerator coroutine;
+    Vector3 lerpTemp;
+    SpringJoint joint;
 
+    private void Start()
+    {
+        joint = GetComponent<SpringJoint>();
+    }
     private void Update()
     {
         if (grabPointTransform != null)
         {
-            //Vector3 newPos = Vector3.Lerp(transform.position, grabPointTransform.position, Time.deltaTime * lerpSpeed);
-            //rb.MovePosition(newPos);
+            //if (joint != null && joint.connectedBody == null)
+            //{
+                //joint.connectedBody = GameManager.Instance.activePlayer.
+           // }
+
+            lerpTemp = Vector3.Lerp(transform.position, grabPointTransform.position, Time.deltaTime * lerpSpeed);
+            rb.MovePosition(lerpTemp);
             
             transform.position = Vector3.Lerp(transform.position, grabPointTransform.position, Time.deltaTime * lerpSpeed);
         }
+        
     }
 
     public override void Interact(Transform _grabPointTransform)
@@ -32,7 +44,7 @@ public class PickableInteractable : Interactable
     {
         Debug.Log(gameObject.name + " was grabbed");
         grabPointTransform = _grabPointTransform;
-        rb.isKinematic = true;
+       // rb.isKinematic = true;
         rb.useGravity = false;
         rb.freezeRotation = true;
         isInteractable = false;

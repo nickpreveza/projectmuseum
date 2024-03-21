@@ -207,7 +207,7 @@ public class vp_FPController : vp_CharacterController
 	{
 		if (GameManager.Instance != null)
 		{
-			if (GameManager.Instance.itemInspected)
+			if (GameManager.Instance.itemInspected || UIManager.Instance.popupActive)
 			{
 				return;
 			}

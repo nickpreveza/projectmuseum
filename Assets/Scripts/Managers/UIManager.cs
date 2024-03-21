@@ -55,13 +55,20 @@ public class UIManager : MonoBehaviour
         CloseTextInspect();
     }
 
-    public void ShowTextInspect(string textContent, string gameParent)
+    public void ShowTextInspect(string gameKey)
     {
+        GameExhibitData gameData = GameManager.Instance.TryFindGameWithKey(gameKey);
+
+        if (gameData == null)
+        {
+            return;
+        }
+
         confirmAction = null;
         additionalAction = null;
 
         textInspectPopup.gameObject.SetActive(true);
-        textInspectPopup.SetDataTextInspect(textContent, gameParent);
+        textInspectPopup.SetDataTextInspect(gameData.description, gameData.name);
         SetCursorVisibility(false);
         popupActive = true;
         GameManager.Instance.SetDOF(true);

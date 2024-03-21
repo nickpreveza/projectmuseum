@@ -93,7 +93,7 @@ public class vp_FPInput : vp_Component
 	{
 		if (GameManager.Instance != null)
 		{
-			if (GameManager.Instance.itemInspected)
+			if (GameManager.Instance.itemInspected || UIManager.Instance.popupActive)
 			{
 				return;
 			}

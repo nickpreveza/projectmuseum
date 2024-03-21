@@ -13,7 +13,9 @@ public class GameManager : MonoBehaviour
 
     [Header("Game Data")]
     public GameData data;
-
+    public List<GameExhibitData> gameExhibitsData = new List<GameExhibitData>();
+    public Dictionary<string, GameExhibitData> games = new Dictionary<string, GameExhibitData>();
+    
     [Header("Systems Status")]
     public bool gameReady;
 
@@ -70,6 +72,23 @@ public class GameManager : MonoBehaviour
 
         //disables the asset test gameobject to remove test objects through script   
         assetTest?.SetActive(false);
+
+        for(int i = 0; i < gameExhibitsData.Count; i++)
+        {
+            games.Add(gameExhibitsData[i].key, gameExhibitsData[i]);
+        }
+    }
+
+    public GameExhibitData TryFindGameWithKey(string key)
+    {
+        if (games.ContainsKey(key))
+        {
+            return games[key];
+        }
+        else
+        {
+            return null;
+        }
     }
 
     private void Update()
@@ -256,6 +275,27 @@ public class GameManager : MonoBehaviour
 #endif
 
     }
+
+}
+
+[System.Serializable]
+public class GameExhibitData
+{
+    public string key;
+
+    public Sprite coverImage;
+    public Sprite gameScreenshot;
+
+    public string name;
+    public string developer;
+    public string publisher;
+    public string releaseDate;
+    public string description;
+
+    public bool hasBeenVisited;
+    public bool hasBeenCompleted;
+    
+    //list for publications 
 
 }
 
