@@ -12,7 +12,7 @@ public class InspectInteractable : Interactable
     public override void Interact(Transform _grabPointTransform, FixedJoint targetJoint)
     {
         //UIManager.Instance.overlayPanel?.GetComponent<OverlayPanel>().DisablePrompt();
-        thisMeshRenderer.enabled = false;
+        //thisMeshRenderer.enabled = false;
         GameManager.Instance.SetItemInspectState(true, prefabToInspect);
         EventManager.Instance.OnItemGrabbed(this.gameObject);
         //UIManager.Instance.ShowItemInspect();

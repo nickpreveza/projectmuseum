@@ -88,6 +88,8 @@ public class AnimationToggle : ActionReceiver
 
     void SetDestination(Vector3 destination, float time)
     {
+        moving = false;
+
         timeElapsed = 0;
         currentAnimationTime = time;
 

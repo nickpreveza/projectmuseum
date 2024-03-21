@@ -163,7 +163,9 @@ public class GameManager : MonoBehaviour
 
     public void SetItemInspectState(bool show, GameObject itemToSpawn = null)
     {
-       
+        itemInspectSpawnTransform.SetActive(false);
+        itemInspectSpawnTransform.SetActive(true);
+
         if (itemInspectSpawnTransform.transform.childCount > 0)
         {
             Destroy(itemInspectSpawnTransform.transform.GetChild(0).gameObject);
