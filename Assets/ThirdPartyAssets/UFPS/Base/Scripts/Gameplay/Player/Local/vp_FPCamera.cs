@@ -374,8 +374,15 @@ public class vp_FPCamera : vp_Component
 	/// </summary>
 	protected override void FixedUpdate()
 	{
+        if (GameManager.Instance != null)
+        {
+            if (GameManager.Instance.itemInspected || UIManager.Instance.popupActive)
+            {
+                return;
+            }
+        }
 
-		base.FixedUpdate();
+        base.FixedUpdate();
 
 		if (Time.timeScale == 0.0f)
 			return;
