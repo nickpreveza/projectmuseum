@@ -351,13 +351,14 @@ public class vp_FPCamera : vp_Component
 	/// </summary>
 	protected override void Update()
 	{
-        if (UIManager.Instance != null)
+        if (GameManager.Instance != null)
         {
-            if (UIManager.Instance.popupActive)
+            if (GameManager.Instance.itemInspected)
             {
                 return;
             }
         }
+
         base.Update();
 
 		if (Time.timeScale == 0.0f)

@@ -205,9 +205,9 @@ public class vp_FPController : vp_CharacterController
 	/// </summary>
 	protected override void Update()
 	{
-		if (UIManager.Instance != null)
+		if (GameManager.Instance != null)
 		{
-			if (UIManager.Instance.popupActive)
+			if (GameManager.Instance.itemInspected)
 			{
 				return;
 			}

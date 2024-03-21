@@ -91,6 +91,13 @@ public class vp_FPInput : vp_Component
 	/// </summary>
 	protected override void Update()
 	{
+		if (GameManager.Instance != null)
+		{
+			if (GameManager.Instance.itemInspected)
+			{
+				return;
+			}
+		}
 		
 		// manage input for GUI
 		UpdateCursorLock();
