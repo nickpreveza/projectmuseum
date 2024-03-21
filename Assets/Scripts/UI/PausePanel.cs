@@ -2,8 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
-using UnityEngine.Rendering;
-using UnityEngine.Rendering.Universal;
 using UnityEngine.UI;
 using TMPro;
 
@@ -36,25 +34,14 @@ public class PausePanel : UIPanel
 
     public override void Activate()
     {
-        DepthOfField dof;
-        if (GameManager.Instance.globalVolume.profile.TryGet<DepthOfField>(out dof))
-        {
-            dof.active = true;
-        }
-      
+        
         base.Activate();
         HideSettingsPanel();
     }
 
     public override void Disable()
     {
-        /*
-        DepthOfField dof;
-        if (globalVolume.profile.TryGet<DepthOfField>(out dof))
-        {
-            if (dof != null)
-            dof.active = false;
-        }*/
+        
         base.Disable();
     }
 
@@ -70,8 +57,8 @@ public class PausePanel : UIPanel
                  "Return to title",
                  "Are you sure you want to exit?",
                  true,
-                 "exit",
-                 "cancel",
+                 "sure",
+                 "back",
                  () => GameManager.Instance.ReloadScene(), true);
 
     }
@@ -84,8 +71,8 @@ public class PausePanel : UIPanel
              "QUIT GAME",
              "Are you sure you want to exit?",
              true,
-             "exit",
-             "cancel",
+             "sure",
+             "back",
              () => GameManager.Instance.ApplicationQuit(), true);
     }
 

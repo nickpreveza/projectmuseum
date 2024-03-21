@@ -205,6 +205,13 @@ public class vp_FPController : vp_CharacterController
 	/// </summary>
 	protected override void Update()
 	{
+		if (GameManager.Instance != null)
+		{
+			if (GameManager.Instance.itemInspected)
+			{
+				return;
+			}
+		}
 
 		base.Update();
 

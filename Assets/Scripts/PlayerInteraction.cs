@@ -7,6 +7,7 @@ public class PlayerInteraction : MonoBehaviour
     [SerializeField] private Transform grabPointTransform;
     [SerializeField] private float interactionDistance = 5f;
     [SerializeField] LayerMask interactionLayer;
+    [SerializeField] GameObject itemInspectCamera;
 
     public bool holdsItem;
     public GameObject itemInHands;
@@ -27,8 +28,9 @@ public class PlayerInteraction : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            if (holdsItem && itemInHands != null)
+            if ((holdsItem && itemInHands != null) || (GameManager.Instance.itemInspected && itemInHands != null))
             {
+                GameManager.Instance.itemInspected = false;
                 itemInHands.GetComponent<Interactable>().Drop();
             }
             else
@@ -49,6 +51,11 @@ public class PlayerInteraction : MonoBehaviour
         }
     }
 
+    public void ForceDrop()
+    {
+        holdsItem = false;
+        itemInHands = null;
+    }
     void OnGrab(GameObject obj)
     {
         if (holdsItem)

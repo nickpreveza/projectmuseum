@@ -62,6 +62,7 @@ public abstract class Interactable : MonoBehaviour
     public virtual void Highlight(bool enable)
     {
         //UIManager.Instance.overlayPanel?.GetComponent<OverlayPanel>().DisablePrompt();
+        UIManager.Instance.SetCursorHighlight(true);
         if (enable)
         {
             EnableOutline();
@@ -87,6 +88,7 @@ public abstract class Interactable : MonoBehaviour
         if (isInteractable)
         {
             GetComponent<Outline>().enabled = true;
+            UIManager.Instance.SetCursorHighlight(true);
         }
     }
 
@@ -95,6 +97,7 @@ public abstract class Interactable : MonoBehaviour
         if (isInteractable)
         {
             GetComponent<Outline>().enabled = false;
+            UIManager.Instance?.SetCursorHighlight(false);
         }
     }
 }

@@ -351,8 +351,15 @@ public class vp_FPCamera : vp_Component
 	/// </summary>
 	protected override void Update()
 	{
+        if (GameManager.Instance != null)
+        {
+            if (GameManager.Instance.itemInspected)
+            {
+                return;
+            }
+        }
 
-		base.Update();
+        base.Update();
 
 		if (Time.timeScale == 0.0f)
 		    return;
