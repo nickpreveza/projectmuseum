@@ -294,6 +294,9 @@ public class GameExhibitData
     public string releaseDate;
     public string description;
 
+    public Color backgroundColor;
+    public bool textOnColorIsDark;
+
     public bool hasBeenVisited;
     public bool hasBeenCompleted;
     

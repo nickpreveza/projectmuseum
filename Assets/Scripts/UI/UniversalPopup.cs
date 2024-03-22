@@ -19,6 +19,9 @@ public class UniversalPopup : UIPopup
     [SerializeField] TextMeshProUGUI cancelText;
 
     [SerializeField] Image textInspectImage;
+    [SerializeField] Image background;
+
+
     public void EnableDof()
     {
         DepthOfField dof;
@@ -85,10 +88,18 @@ public class UniversalPopup : UIPopup
 
     }
 
-    public void SetDataTextInspect(string textContent, string gameParent, Sprite coverImage = null)
+    public void SetDataTextInspect(string gameKey)
     {
-        title.text = gameParent;
-        description.text = textContent;
+        GameExhibitData gameData = GameManager.Instance.TryFindGameWithKey(gameKey);
+
+        if (gameData == null)
+        {
+            Debug.LogError("Somehow palpatine returned");
+            return;
+        }
+
+        title.text = gameData.name + ", " + gameData.releaseDate; // + gameData.developer + ", " + gameData.releaseDate;
+        description.text = gameData.description;
 
         confirmText.text = "CLOSE";
         confirm.onClick.AddListener(() => CloseWithDelay());
@@ -103,8 +114,19 @@ public class UniversalPopup : UIPopup
         confirmText.text = "CLOSE";
         confirm.onClick.AddListener(() => CloseWithDelay());
 
-        textInspectImage.gameObject.SetActive((coverImage != null));
-        textInspectImage.sprite = coverImage;
+        textInspectImage.gameObject.SetActive((gameData.coverImage != null));
+        textInspectImage.sprite = gameData.coverImage;
+
+        background.color = gameData.backgroundColor;
+
+        if (gameData.textOnColorIsDark)
+        {
+            description.color = Color.black;
+        }
+        else
+        {
+            description.color = Color.white;
+        }
 
         if (dofOnShow)
         {
