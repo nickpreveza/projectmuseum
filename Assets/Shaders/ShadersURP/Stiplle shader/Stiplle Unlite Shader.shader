@@ -36,7 +36,7 @@
             struct v2f
             {
                 float2 uv : TEXCOORD0;
-                UNITY_FOG_COORDS(1)
+                UNITY_FOG_COORDS(2)
                 float4 vertex : SV_POSITION;
                 float4 worldPos : TEXCOORD1;
 

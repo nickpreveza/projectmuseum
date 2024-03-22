@@ -18,6 +18,7 @@ public class UniversalPopup : UIPopup
     [SerializeField] Button cancel;
     [SerializeField] TextMeshProUGUI cancelText;
 
+    [SerializeField] Image textInspectImage;
     public void EnableDof()
     {
         DepthOfField dof;
@@ -84,17 +85,26 @@ public class UniversalPopup : UIPopup
 
     }
 
-    public void SetDataTextInspect(string textContent, string gameParent)
+    public void SetDataTextInspect(string textContent, string gameParent, Sprite coverImage = null)
     {
         title.text = gameParent;
         description.text = textContent;
-        confirm.onClick.RemoveAllListeners();
-        cancel.onClick.RemoveAllListeners();
-        confirm.interactable = true;
-        cancel.gameObject.SetActive(false);
-        confirm.gameObject.SetActive(true);
+
         confirmText.text = "CLOSE";
         confirm.onClick.AddListener(() => CloseWithDelay());
+
+        confirm.onClick.RemoveAllListeners();
+        cancel.onClick.RemoveAllListeners();
+       
+        cancel.gameObject.SetActive(false);
+        confirm.gameObject.SetActive(true);
+
+        confirm.interactable = true;
+        confirmText.text = "CLOSE";
+        confirm.onClick.AddListener(() => CloseWithDelay());
+
+        textInspectImage.gameObject.SetActive((coverImage != null));
+        textInspectImage.sprite = coverImage;
 
         if (dofOnShow)
         {

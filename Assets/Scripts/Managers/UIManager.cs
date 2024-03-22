@@ -68,7 +68,7 @@ public class UIManager : MonoBehaviour
         additionalAction = null;
 
         textInspectPopup.gameObject.SetActive(true);
-        textInspectPopup.SetDataTextInspect(gameData.description, gameData.name);
+        textInspectPopup.SetDataTextInspect(gameData.description, gameData.name, gameData.coverImage);
         SetCursorVisibility(false);
         popupActive = true;
         GameManager.Instance.SetDOF(true);
