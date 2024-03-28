@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ba2ce877a6dc0e64487b26d043c2513f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedCullingSystem/Core/Runtime/StaticCulling/Caster.cs
+  uploadId: 604746

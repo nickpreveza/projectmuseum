@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6f72acf8db58876478830a2b18caec5d
+timeCreated: 1470405398
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedCullingSystem/Example/Packs/House/House.prefab
+  uploadId: 604746

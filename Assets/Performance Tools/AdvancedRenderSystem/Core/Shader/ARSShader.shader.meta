@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d41523369ac13f341a372eb6ec8f875c
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedRenderSystem/Core/Shader/ARSShader.shader
+  uploadId: 604746

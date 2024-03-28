@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 977e0d87c96f73a4f8902b723a7a1d7c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedCullingSystem/Core/Runtime/DynamicCulling/DC_CullingTarget/Renderer/DC_RendererShadowsTarget.cs
+  uploadId: 604746

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cdd45a5494d78194697a706508ee3784
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedCullingSystem/Core/Editor/DynamicCulling/DynamicCulling
+    Diagram.drawio
+  uploadId: 604746

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c750b68418693d246a90625e846e5d91
+timeCreated: 1450545677
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedCullingSystem/Example/Scenes/1. OcclusionCullingExample.unity
+  uploadId: 604746

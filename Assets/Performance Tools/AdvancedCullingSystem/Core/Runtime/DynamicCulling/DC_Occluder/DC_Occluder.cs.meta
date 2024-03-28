@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 15653a1db9dd5be4ca3714f73c77234b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedCullingSystem/Core/Runtime/DynamicCulling/DC_Occluder/DC_Occluder.cs
+  uploadId: 604746

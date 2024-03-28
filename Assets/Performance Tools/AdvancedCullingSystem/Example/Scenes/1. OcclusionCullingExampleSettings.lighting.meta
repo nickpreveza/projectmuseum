@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1269de905828f744f908334412e0df9f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedCullingSystem/Example/Scenes/1. OcclusionCullingExampleSettings.lighting
+  uploadId: 604746

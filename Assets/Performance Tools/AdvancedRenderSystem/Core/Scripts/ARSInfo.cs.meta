@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2b19ab50eb85b904baf6bf384c808e5c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedRenderSystem/Core/Scripts/ARSInfo.cs
+  uploadId: 604746

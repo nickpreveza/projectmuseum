@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d7b062c1549fd1244b6808a6d86a21c0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/SuperLevelOptimizer/Scripts/Editor/SuperLevelOptimizerWindow.cs
+  uploadId: 604746

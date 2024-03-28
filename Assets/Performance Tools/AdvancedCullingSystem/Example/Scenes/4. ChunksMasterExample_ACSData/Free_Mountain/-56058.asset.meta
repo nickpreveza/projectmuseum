@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b4f74d3f6ebe3204cb21bed6b084f4dd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedCullingSystem/Example/Scenes/4. ChunksMasterExample_ACSData/Free_Mountain/-56058.asset
+  uploadId: 604746

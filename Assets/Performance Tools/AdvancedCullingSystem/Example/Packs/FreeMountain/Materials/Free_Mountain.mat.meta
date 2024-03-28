@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5973ab68ded66ee48b3a47063424e995
+timeCreated: 1450545368
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedCullingSystem/Example/Packs/FreeMountain/Materials/Free_Mountain.mat
+  uploadId: 604746

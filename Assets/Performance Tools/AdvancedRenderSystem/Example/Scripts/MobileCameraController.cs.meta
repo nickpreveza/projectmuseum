@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ff35e9b79fbfcaa439db9ac02a8d8659
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 50
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedRenderSystem/Example/Scripts/MobileCameraController.cs
+  uploadId: 604746

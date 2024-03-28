@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ea950b5472109b446acf9f295ac1ecd0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedRenderSystem/Example/Scripts/Joystick.cs
+  uploadId: 604746

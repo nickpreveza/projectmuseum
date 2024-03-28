@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 08c20d1f077306d4784ca4cb1384e3a2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedCullingSystem/Example/Scenes/3. DynamicCullingExample_ACSData/Free_Mountain
+    (1)/-4088.asset
+  uploadId: 604746

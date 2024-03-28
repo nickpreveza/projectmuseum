@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5f990e566f8416d4cbe888a74e3075c8
+timeCreated: 1450545677
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedCullingSystem/Example/Scenes/4. ChunksMasterExample.unity
+  uploadId: 604746

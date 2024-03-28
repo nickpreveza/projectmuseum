@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e50b764873a640e45bf7e124da06ae4e
+timeCreated: 1450545677
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedCullingSystem/Example/Scenes/3. DynamicCullingExample.unity
+  uploadId: 604746

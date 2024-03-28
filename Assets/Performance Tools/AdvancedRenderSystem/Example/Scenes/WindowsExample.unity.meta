@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dc870652300f1c34baa00d2dbe7b7d47
+timeCreated: 1450545677
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedRenderSystem/Example/Scenes/WindowsExample.unity
+  uploadId: 604746

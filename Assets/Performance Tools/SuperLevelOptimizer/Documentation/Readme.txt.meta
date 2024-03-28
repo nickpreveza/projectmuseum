@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1fa79e06391c4a94dbd8bdb7112fbe51
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/SuperLevelOptimizer/Documentation/Readme.txt
+  uploadId: 604746

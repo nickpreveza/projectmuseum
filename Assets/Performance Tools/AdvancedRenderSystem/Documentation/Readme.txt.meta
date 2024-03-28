@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 74c3570fd93e88f41afd52fced3b4f78
+timeCreated: 1480259863
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedRenderSystem/Documentation/Readme.txt
+  uploadId: 604746

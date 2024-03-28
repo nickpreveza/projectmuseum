@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 19b206dbe3533dc4c961746a9db6fb66
+timeCreated: 1450545677
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedRenderSystem/Example/Scenes/AndroidExample.unity
+  uploadId: 604746

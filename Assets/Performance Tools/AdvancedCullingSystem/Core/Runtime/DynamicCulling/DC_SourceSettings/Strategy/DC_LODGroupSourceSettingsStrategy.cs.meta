@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0fbd35f3f494d2f46bcea11a287fe56f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedCullingSystem/Core/Runtime/DynamicCulling/DC_SourceSettings/Strategy/DC_LODGroupSourceSettingsStrategy.cs
+  uploadId: 604746

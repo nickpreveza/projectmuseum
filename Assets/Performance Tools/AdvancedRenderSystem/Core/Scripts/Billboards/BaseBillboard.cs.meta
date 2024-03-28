@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2d58d7b458333164cbe7e29d43a4d2dc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedRenderSystem/Core/Scripts/Billboards/BaseBillboard.cs
+  uploadId: 604746

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 21d0f554fcc5a794b9278d246a5ed839
+timeCreated: 1469798975
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedCullingSystem/Example/Packs/House/Materials/House
+    1.mat
+  uploadId: 604746

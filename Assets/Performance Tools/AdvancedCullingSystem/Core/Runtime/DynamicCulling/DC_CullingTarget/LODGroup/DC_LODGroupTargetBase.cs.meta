@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c1d8b3668c6fcc14da14a6cb7ea77ef4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedCullingSystem/Core/Runtime/DynamicCulling/DC_CullingTarget/LODGroup/DC_LODGroupTargetBase.cs
+  uploadId: 604746

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b1fa1d82847d84e49bb9106c9370fd4b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedRenderSystem/Example/Packs/FreeMountain/Prefabs/Free_Mountain.prefab
+  uploadId: 604746

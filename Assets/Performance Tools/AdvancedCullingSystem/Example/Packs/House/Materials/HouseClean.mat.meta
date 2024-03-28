@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7aae7bcea9a7344459958f7f927f049d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedCullingSystem/Example/Packs/House/Materials/HouseClean.mat
+  uploadId: 604746

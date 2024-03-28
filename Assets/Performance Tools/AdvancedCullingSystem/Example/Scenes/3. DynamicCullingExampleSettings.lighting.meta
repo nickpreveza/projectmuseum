@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3e382176d736d2b4f90e8b1f958c9677
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedCullingSystem/Example/Scenes/3. DynamicCullingExampleSettings.lighting
+  uploadId: 604746

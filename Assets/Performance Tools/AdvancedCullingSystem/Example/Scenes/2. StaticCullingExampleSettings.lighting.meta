@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 430ef3a705ffc10479338da3322a004c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedCullingSystem/Example/Scenes/2. StaticCullingExampleSettings.lighting
+  uploadId: 604746

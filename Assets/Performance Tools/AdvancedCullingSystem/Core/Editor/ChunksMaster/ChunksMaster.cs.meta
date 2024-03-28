@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f7a72ffbb5e7b3248b6b29aa57337b84
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedCullingSystem/Core/Editor/ChunksMaster/ChunksMaster.cs
+  uploadId: 604746

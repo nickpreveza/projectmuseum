@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8732c04f789ea44408e0be73be75b919
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedCullingSystem/Core/Editor/DynamicCulling/DC_Controller/DC_ControllerEditorUtil.cs
+  uploadId: 604746

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9994d746118391c4884037517fe4ca74
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedRenderSystem/Example/Packs/FreeMountain/Scene/FreeMountain.unity
+  uploadId: 604746

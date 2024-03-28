@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3f690513d00faf440ad3ed2134434fda
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedCullingSystem/Example/Animation/CameraRotationAnim.anim
+  uploadId: 604746

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3dd726f83c227f447b00eb5a07d833ca
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/SuperLevelOptimizer/Scripts/SLO_SourceMark.cs
+  uploadId: 604746

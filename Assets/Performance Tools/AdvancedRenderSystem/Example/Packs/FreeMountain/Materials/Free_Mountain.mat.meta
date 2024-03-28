@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6c6f4679e2b1a1447b3a91b8a29d1efd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedRenderSystem/Example/Packs/FreeMountain/Materials/Free_Mountain.mat
+  uploadId: 604746

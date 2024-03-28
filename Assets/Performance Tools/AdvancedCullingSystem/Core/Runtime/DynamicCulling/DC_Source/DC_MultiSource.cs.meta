@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0e9095ce6df23514390e75351add3cab
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedCullingSystem/Core/Runtime/DynamicCulling/DC_Source/DC_MultiSource.cs
+  uploadId: 604746

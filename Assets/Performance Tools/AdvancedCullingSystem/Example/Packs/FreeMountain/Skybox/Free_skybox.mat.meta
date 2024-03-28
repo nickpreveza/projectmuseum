@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4468cf691a0d9e74183ca9beb3c7c990
+timeCreated: 1450547251
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80534
+  packageName: Performance Tools
+  packageVersion: 3.5.8
+  assetPath: Assets/Performance Tools/AdvancedCullingSystem/Example/Packs/FreeMountain/Skybox/Free_skybox.mat
+  uploadId: 604746
